@@ -2,7 +2,17 @@
 
 ![gmao-banner](./static/img/gmao_fire_banner-1.png)
 
-## CFAPI the GEOS-CF API
+## Using this Repository
+
+This tutorials repository relies on packages found in the available requirements.txt file. 
+
+### Installation using pip
+pip install -r requirements.txt
+
+### Installation using Conda
+conda create --name <env_name> --file requirements.txt
+
+## CFAPI: The GEOS-CF API
 
 CFAPI is a RESTful API that allows users to access GEOS-CF model forecasts and historical estimates.
 
@@ -18,7 +28,3 @@ Google Earth Engine provides a multi-petabyte catalog of satellite imagery and g
 The tutorial available in this repository explains how to access the GEOS-CF data via the GEE Python API. Users will visualize the data in time-series and in interactive maps along with data from the TROPOMI instrument. This plots and maps visualize tropospheric NO2 concentrations.
 
 Users will also learn how to use an XGBoost model to gap-fill TROPOMI data and also predict future TROPOMI observations of tropospheric NO2.
-
-## GEOS-CF in Dash-Leaflet
-
-
