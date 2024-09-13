@@ -1,6 +1,6 @@
 # GEOS-CF Tutorials Hub
 
-![gmao-banner](./static/img/gmao_fire_banner-1.png)
+![gmao-banner](./static/img/cf_columns.png)
 
 ## Using this Repository
 
